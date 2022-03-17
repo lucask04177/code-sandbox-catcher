@@ -2,13 +2,13 @@ body {
   background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     black,
     black 30%,
     white,
     white 30%
-  );
+  ); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -164,7 +164,8 @@ li a {
   background-color: rgb(253, 65, 96);
   width: 85%;
   margin: 0 auto;
-  padding: 20px 0px 200px;
+  margin-bottom: 0;
+  padding: 20px 0px 80px;
   color: white;
   align-content: center;
   margin-top: 15px;
