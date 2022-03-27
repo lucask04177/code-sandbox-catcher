@@ -1,0 +1,60 @@
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.main-container {
+    width: 80%;
+    height: 300px;
+    background: pink;
+}
+
+.main-contents {
+    width: 60%;
+    height: 300px;
+    background: yellow;
+    float: left;
+}
+
+.main-picture {
+    width: 40%;
+    height: 300px;
+    background: black;
+    float: left;
+    background-image: url(lucaskang.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-profile {
+    height: 20%;
+    width: 100%;
+    background: white;
+}
+
+.profile-picture {
+    background-image: url(together.png);
+    width: 15%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 60px;
+    float: left;
+}
+
+.profile-name {
+    float: left;
+    height: 100%;
+    margin: 0;
+}
+
+.contents {
+    background: pink;
+    height: 80%;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}

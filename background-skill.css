@@ -1,0 +1,37 @@
+.container {
+    background: pink;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(lucaskang.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main-text {
+    color: white;
+    text-align: center;
+}
+
+.main-text button {
+    border-radius: 30px;
+    font-size: 50px;
+    padding: 10px;
+    background: yellowgreen;
+}
+
+.center {
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    background: pink;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

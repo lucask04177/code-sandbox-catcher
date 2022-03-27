@@ -1,0 +1,81 @@
+.body {
+    margin: none;
+}
+
+.nav-container {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.container {
+    width: 100%%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-flexbox {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.main-image {
+    width: 100%;
+    background-image: url(luv-fit_main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.main-titles {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+
+.luv-fit-btn {
+    font-size: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: pink;
+}
+
+.main-describe {
+    text-align: center;
+    margin: auto;
+}
+
+.center {
+    width: 80%;
+    background-color: pink;
+    position: absolute;
+    bottom: -100px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button-container {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+.main-button {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+

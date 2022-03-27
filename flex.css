@@ -1,0 +1,67 @@
+.body {
+    margin: none;
+}
+
+.nav-container {
+    background-color: pink;
+    display: flex;
+    width: 
+}
+
+.nav-flexbox {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.main-image {
+    width: 100%;
+    background-image: url(love.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.main-titles {
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    font-size: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px black;
+}
+
+.main-describe {
+    text-align: center;
+    margin: auto;
+}
+
+.center {
+    width: 80%;
+    background-color: pink;
+    position: absolute;
+    bottom: -100px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: pink;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(lucaskang.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}

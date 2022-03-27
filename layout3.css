@@ -1,0 +1,57 @@
+body {
+    margin:0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    background: pink;
+    width: 100%;
+    height: 500px;
+    padding: 1px;
+    background-image: url(lucaskang.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 1px 1px black;
+}
+
+.main-content {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.purchase-button {
+    font-size: 40px;
+    background: pink;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.main-bottom-box {
+    background: pink;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+}

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+.flex-box {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .flex-box {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        flex-direction: column;
+    }
+}

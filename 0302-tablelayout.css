@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+tr {
+    border: 1px solid rgb(114, 169, 231);
+}
+
+table {
+    border-collapse: collapse;
+    text-align: right;
+    border: none;
+}
+
+.back-blue {
+    width: 800px;
+    background: rgb(114, 169, 231);
+    padding: 10px;
+}
+
+.front-white {
+    background: white;
+    border-radius: 10px;
+}
+
+.content-container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.bottom-content {
+    float: left;
+}
+
+.payment-method {
+    padding: 10px;
+    margin-top: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-method:hover {
+    background: yellow;
+    color: black;
+}
+.payment-method:focus {
+    background: green;
+}
+.payment-method:active {
+    background: brown;
+}
+
+.input-text {
+    font-size: 20px;
+}
+
+.input-text:focus {
+    border: red 3px solid;
+}
+
+td img {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.th-font {
+    text-align: center;
+    color: rgb(0, 153, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.font-bold {
+    font-weight: bolder;
+    color: blue;
+    padding: 30px;
+}
+
+.describe-part {
+    width: 30%;
+    text-align: left;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link:link {
+    color: red;
+}
+
+.custom-link:visited {
+    color: black;
+}

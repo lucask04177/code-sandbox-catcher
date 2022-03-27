@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.contact-box {
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.email-input {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+
+.name-input {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.firstname-input {
+    width: 40%;
+    height: 50px;
+    float: left;
+}
+
+.lastname-input {
+    width: 40%;
+    height: 50px;
+    float: left;
+}
+
+.message-input {
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+input[type=email] {
+    font-size: 15px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+}
+
+input[type=text] {
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.checkbox-button {
+    width: 80%;
+    position: relative;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+.checkbox {
+    float: left;
+    position: absolute;
+    left: 70px;
+}
+
+button {
+    background: yellow;
+    padding: 5px;
+    float: right;
+}

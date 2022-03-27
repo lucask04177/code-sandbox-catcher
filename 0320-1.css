@@ -1,0 +1,35 @@
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+.back-black {
+    background: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.back-white {
+    background: white;
+    width: 80%;
+    padding: 40px;
+    margin: auto;
+}
+
+input[type=email] {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 5px;
+}

@@ -1,0 +1,44 @@
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+.black-form {
+    background-color: black;
+    padding: 10px;
+}
+
+.white-form {
+    background-color: white;
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-title {
+    width: 100%;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 5px;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.email-input {
+    font-size: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+}
+
+.message-height {
+    padding: 30px;
+}
